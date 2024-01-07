@@ -1,13 +1,14 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: leetjourney
+description: a website that records my coding journey
 theme: just-the-docs
+color_scheme: dark
+
 
 url: https://just-the-docs.github.io
 
 
+# Color scheme supports "light" (default) and "dark"
 
-
-logo: "image/logo.jpg"
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -35,18 +36,8 @@ search:
   rel_url: true
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
-  button: true
+  button: false
 
 
----
-layout: default
-title: Customization
-nav_order: 4
----
 
----
-layout: default
-title: Overview
-nav_order: 4
----
 
