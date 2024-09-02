@@ -1,0 +1,11 @@
+class Solution:
+    def removeDuplicates(self, nums):
+        dup_count = 1 
+        for i in range(1, len(nums)):
+            if nums[i] in nums[:dup_count]:
+                nums[i] = -1
+            else:
+                nums[dup_count] = nums[i]
+                dup_count+=1
+        
+        return dup_count
